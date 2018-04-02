@@ -1,13 +1,18 @@
 <html>
 
+<script type="text/javascript">
 
-<body bgcolor="white">
+function detectBrowser()
+{
+    var slashIndex = window.location.href.lastIndexOf("/");
+    var cropped = window.location.href.slice(0,slashIndex+1);
 
-<HR>Files for START Summit - St. Gallen, March 15-16</HR>
+    window.location.replace(cropped + "assets/player/KeynoteDHTMLPlayer.html");
+}
 
-<p><a href="Blockchain_START_SUMMIT.pdf">Nasr - START Summit PDF</a></p>
-<p><a href="blockchain-101.mp4">Nasr - Blockchain 101 MP4</a></p>
+</script>
 
+<body bgcolor="black" onload="detectBrowser()">
 </body>
 
 </html>

@@ -1,0 +1,52 @@
+{
+  "autoplayTransitionDelay" : 5,
+  "author" : "",
+  "timestamp" : "2018-32-2 15:4:7",
+  "loopSlideshow" : 0,
+  "filename" : "Blockchain_START_SUMMIT",
+  "autoplayBuildDelay" : 2,
+  "comment" : "",
+  "title" : "Blockchain_START_SUMMIT",
+  "showMode" : 0,
+  "creator" : "Apple Keynote 8.0",
+  "slideList" : [
+    "8E463402-4CE8-4CEA-8574-93E0EF67E44E",
+    "0E83E827-18D2-4EB0-BC51-D789712E321E",
+    "F31300DD-BE1E-4B31-91FB-57756F4C23B6",
+    "008FEDCB-F5EF-4041-A4F7-2641DBD085AB",
+    "BFBBAB5E-2D27-4BD8-B94F-3134DBDE0F2A",
+    "6FE581A4-3694-473B-B73C-7DD19B90A054",
+    "C9F06652-C5AE-43EC-AACF-3F570F7725BD"
+  ],
+  "soundtrack" : {
+    "mode" : 0,
+    "volume" : 1
+  },
+  "slideWidth" : 1024,
+  "slideHeight" : 768,
+  "slideCount" : 7,
+  "majorVersion" : 1,
+  "minorVersion" : 2,
+  "fonts" : [
+    "Copperplate",
+    "LucidaGrande",
+    "Helvetica-Bold",
+    "Avenir-Heavy",
+    "AndaleMono",
+    "Palatino-Roman",
+    "Helvetica",
+    "Helvetica-Light",
+    "AmericanTypewriter",
+    "Impact",
+    "MarkerFelt-Thin",
+    "Mistral",
+    "Avenir-HeavyOblique",
+    "GillSans",
+    "Avenir-Book",
+    "Copperplate-Bold",
+    "Skia-Regular_Bold",
+    "HelveticaNeue",
+    "Avenir-Oblique",
+    "Caveat-Bold"
+  ]
+}
