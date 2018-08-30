@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="Generated using Exporter Skerch Plugin - https://github.com/MaxBazarov/exporter">
+<title>WikiApp_Mocks_Demo</title>
+<link rel="stylesheet" type="text/css" href="resources/fa/css/all.min.css"/>
+<link rel="stylesheet" type="text/css" href="resources/viewer.css">
+<link rel="stylesheet" type="text/css" href="resources/viewer-top.css">
+<script type="text/javascript" src="resources/jquery-1.12.4.min.js" charset="UTF-8"></script>
+<script type="text/javascript" src="resources/jquery-migrate-1.4.1.min.js" charset="UTF-8"></script>
+<script type="text/javascript" src="resources/jquery.maphilight.min.js" charset="UTF-8"></script>
+<script type="text/javascript" src="resources/jquery.hotkeys.min.js" charset="UTF-8"></script>
+<script type="text/javascript" src="resources/jquery.ba-hashchange.min.js" charset="UTF-8"></script>
+<script type="text/javascript" src="resources/story.js" charset="UTF-8"></script>
+<script type="text/javascript" src="resources/viewer.js" charset="UTF-8"></script>
+<script type="text/javascript" src="resources/gallery.js" charset="UTF-8"></script>
+<script type="text/javascript">
+  var viewer = createViewer(story, "images");
+  var gallery = createGallery();
+</script>
+</head>
+<body class="screen">
+ <div id="container">
+ <div id="content"></div>
+ <div id="content-shadow" class="hidden"></div>
+ <div id="content-overlay" class="hidden"></div>
+ <div id="gallery" class="hidden"></div>
+</div>
+ <div id="nav">
+     <ul id="nav-right-hide" class="nav-set">
+         <li class="nav-item-icon">
+             <a onclick="viewer.hideNavbar(); return false;" href="" title="Hide controls"><i class="fas fa-times"></i></a>
+         </li>
+     </ul>
+     <ul id="nav-left" class="nav-set">
+         <li id="nav-left-prev" class="nav-item-icon">
+             <a onclick="viewer.previous(); return false;" href="" title="View previous screen (or →)"><i class="fas fa-angle-left"></i></a>
+         </li>
+         <li id="nav-left-next" class="nav-item-icon">
+             <a onclick="viewer.next(); return false;" href="" title="View next screen (or ←)"><i class="fas fa-angle-right"></i></a>
+         </li>
+         <li id="nav-right-links" class="nav-item-icon">
+             <a onclick="viewer.toggleLinks(); return false;" href="" title="Toggle links (or SHIFT to toggle)"><i class="far fa-hand-pointer"></i></a>
+         </li>
+         <li id="nav-right-hints" class="nav-item-icon">
+             <a onclick="viewer.showHints(); return false;" href="" title="Show page annotations"><i class="far fa-info"></i></a>
+         </li>
+         <li id="nav-right-gallery" class="nav-item-icon">
+             <a onclick="gallery.switch(); return false;" href="" title="Show all pages"><i class="far fa-images"></i></a>
+         </li>
+     </ul>
+     <ul id="nav-title">
+         <li><div class="nav-title-label">Screen title <!--VERSION--></div><div class="title">Title</div></li>
+     </ul>
+ </div>
+ <div id="nav-hide" class="hidden">
+     <ul class="nav-set">
+         <li class="nav-item-icon">
+             <a onclick="viewer.showNavbar(); return false;" href="" title="Show controls"><i class="fas fa-bars"></i></a>
+         </li>
+     </ul>
+ </div>
+</body>
+</html>
